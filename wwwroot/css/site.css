@@ -1,0 +1,90 @@
+﻿/*.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #2d3e50;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.login-container {
+    width: 300px;
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+
+    flex-direction: column;
+}
+
+    .login-container label {
+        margin: 10px 0 5px 0;
+    }
+
+.input-field {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.suggestions-container {
+    margin-bottom: 15px;
+}
+
+.suggestions-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .suggestions-list li {
+        background-color: #2ecc71;
+        padding: 5px;
+        margin: 2px 0;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+.login-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.system-control {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.shutdown-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.restart-button {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+*/
