@@ -1,4 +1,6 @@
-﻿namespace MezzexEyeApp
+﻿using Microsoft.AspNetCore.Components.WebView.Maui;
+
+namespace MezzexEyeApp
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainPage(BlazorWebView);
         }
     }
 }

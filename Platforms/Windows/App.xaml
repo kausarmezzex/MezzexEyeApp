@@ -5,4 +5,7 @@
     xmlns:maui="using:Microsoft.Maui"
     xmlns:local="using:MezzexEyeApp.WinUI">
 
+    <Application.Resources>
+        <!-- Define application-wide resources here if needed -->
+    </Application.Resources>
 </maui:MauiWinUIApplication>

@@ -22,7 +22,7 @@ namespace MezzexEyeApp
             // Register HttpClient to be used for API calls
             builder.Services.AddScoped(sp => new HttpClient
             {
-                BaseAddress = new Uri("https://smapi.mezzex.com/") // Base URL for your API
+                BaseAddress = new Uri("https://localhost:7045/") // Base URL for your API
             });
 
 #if DEBUG
